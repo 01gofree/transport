@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+
+.logo{
+    width: 50px;
+    margin-left: 25px;
+}
+
+.submenu{
+    width: 100%;
+    height: 60px;
+    border: 1px solid white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: white;
+   
+}
+
+
+
+nav li{
+    display: inline-block;
+    margin: 10px;
+    
+    
+    
+    
+}
+nav a{
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+#centre{
+    background-image: url(landstar1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding: 80px;
+    margin: 0 auto;
+    
+}
+#centre p{
+    width: fit-content;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 450px;
+    
+}
+#main_hero{
+    background-color: aliceblue;
+
+  
+}
+.first{
+    padding: 20px;
+    text-align: center;
+}
+#hero{
+    width: 80%;
+    border: 1px solid black;
+    margin: 80px auto;
+    background-color: white;
+
+}
+.hero_1{
+    margin: 20px;
+}
+.hero_2{
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#button{
+    background-color: blue;
+    color: white;
+    margin: 20px 40%;
+}
+.secondhero{
+    line-height: 50px;
+   
+}
+footer{
+    height:60vh;
+    background-color: white;
+}
+#footerhero{
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+li{
+    list-style: none;
+    
+}
+h6{
+    text-align: center;
+}
